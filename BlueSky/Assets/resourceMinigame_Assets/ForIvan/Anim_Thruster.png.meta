@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 87066e0bd31c5494198f3390a2b2cebb
+timeCreated: 1517171220
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Anim_Thruster
+    21300002: Anim_Thruster_00001
+    21300004: Anim_Thruster_00002
+    21300006: Anim_Thruster_00003
+    21300008: Anim_Thruster_00004
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Anim_Thruster_00001
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 457
+        width: 217
+        height: 566
+      alignment: 9
+      pivot: {x: 0.4562212, y: 0.48321554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Anim_Thruster_00002
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 425
+        width: 208
+        height: 598
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49414715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Anim_Thruster_00003
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 398
+        width: 207
+        height: 625
+      alignment: 9
+      pivot: {x: 0.5120773, y: 0.5016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Anim_Thruster_00004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 384
+        width: 210
+        height: 639
+      alignment: 9
+      pivot: {x: 0.4904762, y: 0.5046948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
