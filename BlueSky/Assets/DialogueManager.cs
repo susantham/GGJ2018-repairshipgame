@@ -5,22 +5,24 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
 
+    public AudioSource continueBeep = null;
     public Text nameText;
     public Text dialogueText;
 
     //public Animator animator;
 
-    private Queue<string> sentences;
+    public Queue<string> sentences;
 
 	// Use this for initialization
 	void Start ()
     {
         sentences = new Queue<string>();
+
 	}
 
     public void StartDialogue(Dialogue dialogue)
     {
-       // animator.SetBool("IsOpen", true);
+       //animator.SetBool("IsOpen", true);
 
 
         nameText.text = dialogue.name;
@@ -29,7 +31,16 @@ public class DialogueManager : MonoBehaviour {
 
         foreach (string sentence in dialogue.sentences)
         {
+            //Debug.Log(sentence.Length.ToString() + " " + sentence.ToString());
             sentences.Enqueue(sentence);
+            //Debug.Log(sentence.Length.ToString() + " " + sentence.ToString());
+            //nameText.text = sentence.Length.ToString() + " " + sentence.ToString();
+            //sentences.Enqueue(sentence);
+            //sentences.Enqueue("Fighto!");
+            //Debug.Log(sentence.Length.ToString() + " " + sentence.ToString());
+
+
+
         }
 
         DisplayNextSentence();
@@ -37,6 +48,8 @@ public class DialogueManager : MonoBehaviour {
 
     public void DisplayNextSentence()
     {
+        continueBeep.Play();
+
         if (sentences.Count == 0)
         {
             EndDialogue();
@@ -60,7 +73,7 @@ public class DialogueManager : MonoBehaviour {
 
     void EndDialogue()
     {
-       // animator.SetBool("IsOpen", false);
+       //animator.SetBool("IsOpen", false);
 
     }
 
