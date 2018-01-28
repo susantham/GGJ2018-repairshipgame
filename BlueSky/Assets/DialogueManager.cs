@@ -11,19 +11,18 @@ public class DialogueManager : MonoBehaviour {
 
     //public Animator animator;
 
-    public Queue<string> sentences;
+    private Queue<string> sentences;
+    private int kindness;
 
 	// Use this for initialization
 	void Start ()
     {
         sentences = new Queue<string>();
-
 	}
 
     public void StartDialogue(Dialogue dialogue)
     {
-       //animator.SetBool("IsOpen", true);
-
+        //animator.SetBool("IsOpen", true);
 
         nameText.text = dialogue.name;
 
@@ -31,19 +30,16 @@ public class DialogueManager : MonoBehaviour {
 
         foreach (string sentence in dialogue.sentences)
         {
-            //Debug.Log(sentence.Length.ToString() + " " + sentence.ToString());
             sentences.Enqueue(sentence);
-            //Debug.Log(sentence.Length.ToString() + " " + sentence.ToString());
-            //nameText.text = sentence.Length.ToString() + " " + sentence.ToString();
-            //sentences.Enqueue(sentence);
-            //sentences.Enqueue("Fighto!");
-            //Debug.Log(sentence.Length.ToString() + " " + sentence.ToString());
-
-
-
         }
 
         DisplayNextSentence();
+    }
+
+    public void AddKindnessPoints(int amount)
+    {
+        kindness += amount;
+        Debug.Log(kindness);
     }
 
     public void DisplayNextSentence()
