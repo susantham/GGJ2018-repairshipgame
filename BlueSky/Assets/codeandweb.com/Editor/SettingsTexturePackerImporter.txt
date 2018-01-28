@@ -4,12 +4,15 @@ tpsheetFileNames:
 - Assets/Art_Assets/Anim_Groy.tpsheet
 - Assets/Art_Assets/Anim_Thruster.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/resourceMinigame_Assets/ForIvan/Anim_Thruster.tpsheet
 textureFileNames:
 - Assets/Art_Assets/Anim_Groy.png
 - Assets/Art_Assets/Anim_Thruster.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/resourceMinigame_Assets/ForIvan/Anim_Thruster.png
 normalmapFileNames:
 - 
 - 
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 enableDebugOutput: 0

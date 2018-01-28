@@ -11,3 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ControlPanel_REMOTE_1768.unity
     guid: c76927045dc41834d9d52dd3b0114175
+  - enabled: 1
+    path: Assets/Repair Mini Game Assets/Fan_Mini_Game_Scene.unity
+    guid: 368623b5d1f87044c8daf48d5ad8cafd
+  - enabled: 1
+    path: Assets/resourceMinigame_Assets/Scenes/minigame.unity
+    guid: f7b38f3cc70124a059a803a9e28386db
+  - enabled: 1
+    path: Assets/RetirementScene.unity
+    guid: 9aa281f7a99c34203a91b39de15069c0
